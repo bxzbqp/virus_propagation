@@ -1,0 +1,11 @@
+{
+    "size_population":1000,
+    "n_infected_start":1,
+    "n_dead_start":0,
+    "steps":1000,
+    "contamination_rate":0.01,
+    "days_to_heal": 12,
+    "avg_death_rate":0.01,
+    "avg_contact":5,
+    "std_contact":2
+}

@@ -1,0 +1,1 @@
+This project aims at simulating the propagation of a virus in a population
