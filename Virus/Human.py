@@ -8,12 +8,16 @@ class Human :
     dead = 0
     contact = 0
     healed = 0
+    position_x = 0
+    position_y = 0
     
-    def __init__(self,id,infected,dead,contact):
+    def __init__(self,id,infected,dead,contact,position):
         self.id = id
         self.infected = infected
         self.dead = dead
         self.contact = contact
+        self.position_x = position[0]
+        self.position_y = position[1]
         return
         
     def __str__(self):
